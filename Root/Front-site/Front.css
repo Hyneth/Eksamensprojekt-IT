@@ -1,0 +1,51 @@
+
+@media(min-width:468px){
+    .container-1{
+      display:flex;
+
+    }
+
+    .container-2{
+      display:flex;
+    }
+
+
+  .container-1 div{
+    border:0px #ccc solid;
+    padding:0px;
+    width:500px;
+    height:500px;
+
+  }
+
+  .box-1{
+    flex:1;
+    order:1;
+    flex-grow: 1;
+
+  }
+
+  .box-2{
+    flex:1;
+    order:2;
+    flex-grow: 1;
+    max-width:170px;
+  }
+
+  .box-3{
+    flex:1;
+    order: 3;
+    flex-grow: 1;
+    max-width:100px;
+  }
+
+  .container-2 div{
+    border:0px #ccc solid
+    padding 0px;
+  }
+
+  .box-4{
+    flex:1;
+    order:1;
+
+  }
